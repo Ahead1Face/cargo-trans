@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+
+body { 
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.h1 {
+  padding: 15px;
+  font-size: 44px;
+}
+
+.h2 {
+  font-size: 30px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.headerItem {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(46, 46, 207);
+  transition: all .2s ease-in-out;
+}
+
+.back-image {
+  background-image: url('../image/daf105-2.png');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.overlay-text {
+  padding: 0 20%;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.benefit {
+  background-color: antiquewhite;;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.benefitItem {
+  font-size: 22px;
+}
+
+.service {
+  text-align: center;
+  font-size: 34px;
+}
+
+.usInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.contactsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 20px;
+}
+
+@media (max-width: 1350px) {
+  .usInfo {
+    flex-direction: column;
+  }
+
+  .h1 {
+    font-size: 34px;
+  }
+
+  .h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .h1 {
+    font-size: 26px;
+  }
+
+  .h2 {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 85%;
+  }
+
+  .headerItem {
+    font-size: 14px;
+  }
+}

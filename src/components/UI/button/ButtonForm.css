@@ -1,0 +1,15 @@
+.btnForm {
+    font-size: 21px;
+    padding: 8px 12px;
+    font-weight: 400;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    margin: 12px 0;
+    transition: all .3s ease-in;
+}
+
+.btnForm:hover {
+    background-color: #d7413c;
+}
